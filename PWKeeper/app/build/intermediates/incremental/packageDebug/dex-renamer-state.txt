@@ -1,0 +1,7 @@
+#Mon Mar 13 21:01:50 EDT 2017
+base.0=/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_074d4439fd046db51fcc92f6596748be827fcfa9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_488cc86a7ffa95c0966d443dd4e1137b372efee0/classes.dex
+base.1=/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_488cc86a7ffa95c0966d443dd4e1137b372efee0
+file.0=/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_074d4439fd046db51fcc92f6596748be827fcfa9/classes.dex

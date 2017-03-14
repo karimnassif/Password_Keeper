@@ -1,0 +1,4 @@
+#Mon Mar 13 21:01:50 EDT 2017
+base.0=/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex
