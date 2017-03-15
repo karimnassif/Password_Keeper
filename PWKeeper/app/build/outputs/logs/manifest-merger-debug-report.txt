@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:3:5-51
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.2.0] /Users/karimabounassif/.android/build-cache/e718dd538b663eba2cc143a50ad67a666219305e/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] /Users/karimabounassif/.android/build-cache/baaa46a8615b61b5145d3fd2095be563ff777cf8/output/AndroidManifest.xml:25:5-20
@@ -26,33 +26,33 @@ MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/karimabo
 MERGED from [com.android.support:support-compat:25.2.0] /Users/karimabounassif/.android/build-cache/94d808c9f88ba2a045ece9ed61c57fc413f0d13e/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/karimabounassif/.android/build-cache/5a5312dae68ce92ab092bf3285f37f33e241d3c2/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:9:9-54
 	android:allowBackup
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.karimabounassif.pwkeeper.MainActivity
-ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.2.0] /Users/karimabounassif/.android/build-cache/e718dd538b663eba2cc143a50ad67a666219305e/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.2.0] /Users/karimabounassif/.android/build-cache/baaa46a8615b61b5145d3fd2095be563ff777cf8/output/AndroidManifest.xml:21:5-23:60
@@ -66,8 +66,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kari
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.2.0] /Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml

@@ -3,129 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/baaa46a8615b61b5145d3fd2095be563ff777cf8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a483994e32c978313b61cb81ff15642ff759925/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/3e1c1b35292c15bb8f284f9bcd3ca7b6027cf493/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b370dbe6b54e488ffd3bd6ce19b4de808ea1acb9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/908edabb457727d1c717d5edcf1549661b667153/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4285917d064535cb482c3bf94377d17f4c34562e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51ece85c43fc760efb4e44ab575ce667a84165c7">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_074d4439fd046db51fcc92f6596748be827fcfa9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/1b6d1362811dbdd0256cb436d988d7653382955e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f5f0e1ba66c6f8d7968692e013b0f5292dfccf1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/5112dfb582bdc299806972348817c8cb9dc909b6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77ad27ee70ac65905882c127354e32dadf972c0d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/94d808c9f88ba2a045ece9ed61c57fc413f0d13e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9d7903f77c707c2333698680a1b4a4eb59325ea3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/47fa0b2157bd7d927b70d184cd0999f5f414beb1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64ca0d65307c6f9af9b59b7059ee42a441b14541/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_488cc86a7ffa95c0966d443dd4e1137b372efee0/classes.dex" />
+        <dex dex="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_34947e97a855e021e3fa750e8c6fd1caad4de431/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/5a5312dae68ce92ab092bf3285f37f33e241d3c2/output/jars/classes.jar"
+        jar="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b19d990c98fda782112b4c529b4830c024c9db67/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/e718dd538b663eba2cc143a50ad67a666219305e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3e23edce35111e7600f7aa3e46f6e534ecbd06b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_faea068cb5ffc9913617b55fe4c1261dd389ce1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_cda17a0515833c8bcbe514191c6076fe58c6e3e0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/karimabounassif/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_c4fd825805bce3c2c9920a206d6543332f4e291f/classes.dex" />
+        sha1="21edef641dcaa69fff076eb6877c1fc5c70931e8">
+        <dex dex="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eda6279562d8e3df36532e952402201e40bbd25e/classes.dex" />
     </item>
 
 </items>

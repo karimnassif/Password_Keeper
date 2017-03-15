@@ -2,21 +2,22 @@ package com.example.karimabounassif.pwkeeper;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.*;
 
+import static com.example.karimabounassif.pwkeeper.R.id.login;
+
 public class MainActivity extends AppCompatActivity {
 
-    /*
-=====================MAIN=========================
-     */
-    public static void main(String[] args) {
-    System.out.println("Not sure what goes in main");
-    }
+//=================Initializations======================
 
-//=================Methods========================
+    Storage storage = new Storage();
+
+//=================Widget Methods========================
 
 
 //=================Utilities======================
@@ -24,42 +25,44 @@ public class MainActivity extends AppCompatActivity {
     //Utility variables
     static Scanner request = new Scanner(System.in);
 
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     //Pushes text to display box
-    public void display(){
-        if(checkPW(getPW())) {
-            String passwords = Storage.displayPWList(Storage.keys);
-            TextView display = (TextView) findViewById(R.id.display);
+    public void showPasswords(View view) {
+        Button goButton = (Button) view;
+        goButton.setText("clicked");
+        String passwords = Storage.displayPWList(Storage.keys);
+        TextView display = (TextView) findViewById(R.id.display);
+        if (checkPW()) {
+            display.setText("correct password amigo");
             display.setText(passwords);
         }
-    }
 
-    //gets password from password textfield
-    public String getPW() {
-        final EditText edit = (EditText) findViewById(R.id.initialPW);
-        return edit.getText().toString();
     }
 
     //Checks for pw and returns true or false
-    public static boolean checkPW(String login){
-        if(!login.equals(Storage.passwords[0])){
-            for(int x=1;x<=Storage.passwords.length;x++){
-                if(login.equals(Storage.passwords[x])){
-                    String text ="This is an old password. Try again: ";
+    public boolean checkPW() {
+        EditText attempt = (EditText) findViewById(R.id.initialPW);
+        TextView display = (TextView) findViewById(R.id.display);
+        String login = attempt.getText().toString();
+        if (!login.equals(Storage.passwords[0])) {
+            for (int x = 1; x < Storage.passwords.length; x++) {
+                if (login.equals(Storage.passwords[x])) {
+                    display.setText("Old password");
                     return false;
                 }
             }
-            String text = "Wrong password dipshit.";
+            display.setText("Wrong password");
             return false;
         }
+        display.setText("Correct Password");
         return true;
     }
-
-
-
 }
+
+

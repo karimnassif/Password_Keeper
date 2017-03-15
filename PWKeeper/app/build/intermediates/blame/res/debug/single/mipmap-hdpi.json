@@ -1,10 +1,26 @@
 [
     {
-        "merged": "/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
-        "source": "/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/karimabounassif/Projects/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/karimabounassif/Projects/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/karimabounassif/AndroidStudioProjects/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/CSC-521/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/karimabounassif/Projects/CSC-521/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/karimabounassif/Projects/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/CSC-521/PWKeeper/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/karimabounassif/Projects/CSC-521/PWKeeper/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

@@ -16,22 +16,24 @@ It is a private package which doesn't do much but it can't be accessed just anyw
 class Storage {
     //Note: Normally we retrieve the encrypted pw and use keys to decrypt locally, for now just saving pws in keys.
     static HashMap<String, String> keys = new HashMap<String, String>();
+
     static String[] passwords = {"password", "12345"};
 
     //Will display list of all password/password types. Can decide if this should show encrypted or decrypted.
     public static String displayPWList(HashMap<String, String> passwords) {
+        populate(passwords);
         String list = "";
         for (Map.Entry<String, String> pw : passwords.entrySet()) {
             String key = pw.getKey();
             String value = pw.getValue();
-            list += (key + " : " + value);
+            list = list + (key + " : " + value + "\n");
         }
         return list;
     }
 
     //Populating password hm for testing (this only works in a class idk why)
     public static void populate(HashMap keys) {
-    keys.put("Facebook password", "12345");
-    keys.put("Twitter password", "12345");
+        keys.put("Facebook password", "12345");
+        keys.put("Twitter password", "12345");
     }
 }
