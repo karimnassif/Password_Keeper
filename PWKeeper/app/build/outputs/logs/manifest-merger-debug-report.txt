@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:3:5-51
 		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main
 		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.2.0] /Users/karimabounassif/.android/build-cache/e718dd538b663eba2cc143a50ad67a666219305e/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] /Users/karimabounassif/.android/build-cache/baaa46a8615b61b5145d3fd2095be563ff777cf8/output/AndroidManifest.xml:25:5-20
@@ -51,6 +51,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.karimabounassif.pwkeeper.MainScreen
+ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:19:9-57
+	android:name
+		ADDED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml:19:19-45
 uses-sdk
 INJECTED from /Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/AndroidManifest.xml:21:5-23:78

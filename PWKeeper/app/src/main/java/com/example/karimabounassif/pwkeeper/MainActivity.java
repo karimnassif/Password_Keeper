@@ -1,9 +1,9 @@
 package com.example.karimabounassif.pwkeeper;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -33,14 +33,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Pushes text to display box
-    public void showPasswords(View view) {
-        Button goButton = (Button) view;
-        goButton.setText("clicked");
-        String passwords = Storage.displayPWList(Storage.keys);
-        TextView display = (TextView) findViewById(R.id.display);
+    public void login(View view) {
+        Intent login = new Intent(this, MainScreen.class);
         if (checkPW()) {
-            display.setText("correct password amigo");
-            display.setText(passwords);
+            startActivity(login);
         }
 
     }
@@ -60,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             display.setText("Wrong password");
             return false;
         }
-        display.setText("Correct Password");
         return true;
     }
 }
