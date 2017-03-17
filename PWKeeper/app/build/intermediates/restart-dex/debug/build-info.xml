@@ -6,22 +6,26 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489715598969"
+    timestamp="1489780006856"
     token="-8439181628871066918"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="360" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="15" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
+
+    <artifact
+        location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
@@ -74,15 +78,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489714687634"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1489715583005"
+        timestamp="1489762945301"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/outputs/apk/app-debug.apk"
@@ -90,7 +86,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489715598969"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1489780006856"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>
