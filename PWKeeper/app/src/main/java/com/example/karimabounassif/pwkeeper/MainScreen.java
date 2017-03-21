@@ -5,9 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import java.util.ArrayList;
-import java.util.HashMap;
+
 
 public class MainScreen extends AppCompatActivity {
 
@@ -16,7 +15,9 @@ public class MainScreen extends AppCompatActivity {
     ArrayAdapter<String> encryptedAdapter;
     ArrayList<String> arrList;
     ArrayList<String> encrypted = new ArrayList<>();
+    ArrayList<String> temp = new ArrayList<>();
     ListView displayList;
+    boolean isEncrypted;
     encrypt encrypt = new encrypt();
 
 
@@ -35,7 +36,6 @@ public class MainScreen extends AppCompatActivity {
         listAdapter = new ArrayAdapter<String>(this, R.layout.simplerow, arrList);
         displayList.setAdapter(listAdapter);
 
-
     }
 
 
@@ -46,19 +46,32 @@ public class MainScreen extends AppCompatActivity {
         //by using listAdapter.add(Their shit);
     }
 
+
     public void encrypt(View view) {
         //Loop through all current passwords and run appropriate encryption (different file) on each.
         //Clicking the button a second time should then decrypt them.
-
-
-        //if (encrypted.size() != arrList.size()) {
-        if (arrList.size() != 0) {
-            for (String s : arrList) {
-                encrypted.add(encrypt.encrypts(s));
+        encrypt encrypt = new encrypt();
+        if(!isEncrypted) {
+            temp.addAll(arrList);
+            if (arrList.size() != 0) {
+                for (String s : arrList) {
+                    encrypted.add(encrypt.encrypts(s));
+                }
+                listAdapter.clear();
+                listAdapter.addAll(encrypted);
+                listAdapter.notifyDataSetChanged();
+                encrypted.clear();
+                isEncrypted=true;
             }
-            encryptedAdapter = new ArrayAdapter<String>(this, R.layout.simplerow, encrypted);
-            displayList.setAdapter(encryptedAdapter);
-            //}
+        }
+        else if(isEncrypted){
+            listAdapter.clear();
+            arrList.clear();
+            listAdapter.addAll(temp);
+            listAdapter.notifyDataSetChanged();
+            arrList.addAll(temp);
+            isEncrypted = false;
+            //TODO: make this delete the encrypted data so clicking encrypt twice doesnt just double the list.
         }
     }
 }

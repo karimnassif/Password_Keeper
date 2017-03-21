@@ -1,5 +1,6 @@
 package com.example.karimabounassif.pwkeeper;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 
 /**
@@ -8,11 +9,12 @@ import java.util.Hashtable;
 
 public class encrypt {
 
+    rsa RSA = new rsa();
 
-    enigma enigma = new enigma();
     public String encrypts(String s)
     {
-        return enigma.encrypt(s, enigma.setup, enigma.p, enigma.r, enigma.ht);
+        //When RSA is set up its encrypt method goes instead of the return.
+        return "encrypted";
     }
 
 
