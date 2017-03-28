@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import java.util.ArrayList;
@@ -70,6 +71,7 @@ public class MainScreen extends AppCompatActivity {
         //Loop through all current passwords and run appropriate encryption (different file) on each.
         //Clicking the button a second time should then decrypt them.
         encrypt encrypt = new encrypt();
+        Button encryptB = (Button) findViewById(R.id.encryptButton);
         if(!isEncrypted) {
             temp.addAll(arrList);
             if (arrList.size() != 0) {
@@ -81,6 +83,7 @@ public class MainScreen extends AppCompatActivity {
                 listAdapter.notifyDataSetChanged();
                 encrypted.clear();
                 isEncrypted=true;
+                encryptB.setText("Decrypt");
             }
         }
         else if(isEncrypted){
@@ -90,6 +93,7 @@ public class MainScreen extends AppCompatActivity {
             listAdapter.notifyDataSetChanged();
             arrList.addAll(temp);
             isEncrypted = false;
+            encryptB.setText("Encrypt");
             //TODO: make this delete the encrypted data so clicking encrypt twice doesnt just double the list.
         }
     }
