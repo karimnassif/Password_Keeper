@@ -33,7 +33,7 @@ class Storage {
     }
 
 
-    //Populating password hm for testing (this only works in a class idk why)
+    //Populating password hm for testing
     public static void populate(HashMap keys) {
         keys.put("Facebook password", "12345");
         keys.put("Twitter password", "12345");

@@ -1,9 +1,13 @@
 package com.example.karimabounassif.pwkeeper;
 
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import java.util.ArrayList;
 
@@ -16,6 +20,7 @@ public class MainScreen extends AppCompatActivity {
     ArrayList<String> arrList;
     ArrayList<String> encrypted = new ArrayList<>();
     ArrayList<String> temp = new ArrayList<>();
+    String text;
     ListView displayList;
     boolean isEncrypted;
     encrypt encrypt = new encrypt();
@@ -31,7 +36,6 @@ public class MainScreen extends AppCompatActivity {
         //Adapter takes stored passwords from Storage.java
         //Storage.keys is the list and Store.displayPWList turns it into an ArrayList which is the needed format.
         displayList = (ListView) findViewById(R.id.display);
-
         arrList = Storage.displayPWList(Storage.keys);
         listAdapter = new ArrayAdapter<String>(this, R.layout.simplerow, arrList);
         displayList.setAdapter(listAdapter);
@@ -39,11 +43,26 @@ public class MainScreen extends AppCompatActivity {
     }
 
 
-        //Method to add passwords that goes with the add button (duh).
+    //Method to add passwords that goes with the add button (duh).
     public void addPW(View view)
     {
-        //Open new screen? Ask for new password and description, merge them to a single String, then add them
-        //by using listAdapter.add(Their shit);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Enter new password and description:");
+
+        final EditText input = new EditText(this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT);
+        builder.setView(input);
+
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                text = input.getText().toString();
+                listAdapter.add(text);
+                listAdapter.notifyDataSetChanged();
+            }
+        });
+
+        builder.show();
     }
 
 

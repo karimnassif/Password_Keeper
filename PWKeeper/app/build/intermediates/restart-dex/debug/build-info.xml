@@ -6,57 +6,42 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490124842553"
+    timestamp="1490731800478"
     token="-8439181628871066918"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="735" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
+        location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1489629057909"
+        timestamp="1490730857348"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -65,32 +50,39 @@
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1489710658765"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1489762945301"
-        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490124842553"
+        timestamp="1490731482621"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1490731800478"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/karimabounassif/Projects/Password_Keeper/PWKeeper/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
