@@ -74,7 +74,7 @@ public class MainScreen extends AppCompatActivity {
         Button encryptB = (Button) findViewById(R.id.encryptButton);
         if(!isEncrypted) {
             temp.addAll(arrList);
-            if (arrList.size() != 0) {
+            if (arrList.size() > 0) {
                 for (String s : arrList) {
                     encrypted.add(encrypt.encrypts(s));
                 }
@@ -92,9 +92,9 @@ public class MainScreen extends AppCompatActivity {
             listAdapter.addAll(temp);
             listAdapter.notifyDataSetChanged();
             arrList.addAll(temp);
+            temp.clear();
             isEncrypted = false;
             encryptB.setText("Encrypt");
-            //TODO: make this delete the encrypted data so clicking encrypt twice doesnt just double the list.
         }
     }
 }

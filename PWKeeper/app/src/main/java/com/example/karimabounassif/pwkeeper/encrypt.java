@@ -14,7 +14,7 @@ public class encrypt {
     public String encrypts(String s)
     {
         //When RSA is set up its encrypt method goes instead of the return.
-        return "encrypted";
+        return s+"*";
     }
 
 
